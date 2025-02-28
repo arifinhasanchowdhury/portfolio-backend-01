@@ -1,0 +1,18 @@
+- portfolio-backend/
+  - controllers/        # Contains logic for handling requests and responses
+    - authController.js
+    - portfolioController.js
+  - middleware/         # Contains middleware for validating users (authorization)
+    - authMiddleware.js
+  - models/             # MongoDB data models/schemas
+    - userModel.js
+    - portfolioModel.js
+  - routes/             # Contains routes that map to specific controller functions
+    - authRoutes.js
+    - portfolioRoutes.js
+  - config/             # Configuration files (e.g., DB connection)
+    - db.js
+  - utils/              # Utility functions like token generation
+    - generateToken.js
+  - server.js           # The main file that starts the server
+  - package.json        # Node.js project metadata and dependencies
